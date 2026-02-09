@@ -1,0 +1,183 @@
+const translations = {
+  fr: {
+    // Navigation
+    dashboard: "Tableau de bord",
+    users: "Utilisateurs",
+    interventions: "Interventions",
+    inventory: "Inventaire",
+    analytics: "Analyses",
+    notifications: "Notifications",
+    settings: "Paramètres",
+    profile: "Profil",
+    logout: "Déconnexion",
+
+    // User Management
+    manageUsers: "Gestion des utilisateurs",
+    allUsers: "Tous les utilisateurs",
+    administrators: "Administrateurs",
+    technicians: "Techniciens",
+    clients: "Clients",
+    username: "Nom d'utilisateur",
+    name: "Nom",
+    email: "Email",
+    phone: "Téléphone",
+    address: "Adresse",
+    specialization: "Spécialisation",
+    status: "Statut",
+    actions: "Actions",
+    active: "Actif",
+    inactive: "Inactif",
+
+    // Actions
+    add: "Ajouter",
+    edit: "Modifier",
+    delete: "Supprimer",
+    save: "Enregistrer",
+    cancel: "Annuler",
+    create: "Créer",
+    update: "Mettre à jour",
+    view: "Voir",
+    reload: "Recharger",
+
+    // Settings
+    preferences: "Préférences",
+    enableNotifications: "Activer les notifications",
+    darkMode: "Mode sombre",
+    language: "Langue",
+    selectLanguage: "Sélectionner la langue",
+
+    // Messages
+    success: "Succès",
+    error: "Erreur",
+    loading: "Chargement...",
+    noDataFound: "Aucune donnée trouvée",
+    confirmDelete: "Êtes-vous sûr de vouloir supprimer cet élément ?",
+
+    // Forms
+    required: "Requis",
+    passwordRequirements:
+      "Le mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre",
+    emailInvalid: "Veuillez entrer une adresse email valide",
+    usernameExists: "Ce nom d'utilisateur existe déjà",
+    emailExists: "Cette adresse email existe déjà",
+
+    // Interventions
+    manageInterventions: "Gestion des interventions",
+    interventionTracking: "Suivi et gestion des interventions en cours",
+    interventionsList: "Liste des interventions",
+    interventionDetails: "Détails de l'intervention",
+    newIntervention: "Nouvelle intervention",
+    addIntervention: "Ajouter une intervention",
+    description: "Description",
+    startDate: "Date de début",
+    endDate: "Date de fin",
+    client: "Client",
+    technician: "Technicien",
+    totalCost: "Coût total",
+    total: "Total",
+    activeInterventions: "Actives",
+    pending: "En attente",
+    inProgress: "En cours",
+    completed: "Terminées",
+    cancelled: "Annulées",
+    laborCost: "Coût de la main-d'œuvre",
+    loadingData: "Chargement des données...",
+    dataLoadedSuccess: "Données chargées avec succès !",
+    dataLoadError: "Échec du chargement des données",
+    ongoing: "En cours",
+    all: "Tous",
+    filterBy: "Filtrer par",
+  },
+
+  en: {
+    // Navigation
+    dashboard: "Dashboard",
+    users: "Users",
+    interventions: "Interventions",
+    inventory: "Inventory",
+    analytics: "Analytics",
+    notifications: "Notifications",
+    settings: "Settings",
+    profile: "Profile",
+    logout: "Logout",
+
+    // User Management
+    manageUsers: "User Management",
+    allUsers: "All Users",
+    administrators: "Administrators",
+    technicians: "Technicians",
+    clients: "Clients",
+    username: "Username",
+    name: "Name",
+    email: "Email",
+    phone: "Phone",
+    address: "Address",
+    specialization: "Specialization",
+    status: "Status",
+    actions: "Actions",
+    active: "Active",
+    inactive: "Inactive",
+
+    // Actions
+    add: "Add",
+    edit: "Edit",
+    delete: "Delete",
+    save: "Save",
+    cancel: "Cancel",
+    create: "Create",
+    update: "Update",
+    view: "View",
+    reload: "Reload",
+
+    // Settings
+    preferences: "Preferences",
+    enableNotifications: "Enable notifications",
+    darkMode: "Dark mode",
+    language: "Language",
+    selectLanguage: "Select language",
+
+    // Messages
+    success: "Success",
+    error: "Error",
+    loading: "Loading...",
+    noDataFound: "No data found",
+    confirmDelete: "Are you sure you want to delete this item?",
+
+    // Forms
+    required: "Required",
+    passwordRequirements:
+      "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+    emailInvalid: "Please enter a valid email address",
+    usernameExists: "Username already exists",
+    emailExists: "Email already exists",
+
+    // Interventions
+    manageInterventions: "Manage Interventions",
+    interventionTracking: "Track and manage ongoing interventions",
+    interventionsList: "Interventions List",
+    interventionDetails: "Intervention Details",
+    newIntervention: "New Intervention",
+    addIntervention: "Add Intervention",
+    description: "Description",
+    startDate: "Start Date",
+    endDate: "End Date",
+    client: "Client",
+    technician: "Technician",
+    totalCost: "Total Cost",
+    total: "Total",
+    activeInterventions: "Active",
+    pending: "Pending",
+    inProgress: "In Progress",
+    completed: "Completed",
+    cancelled: "Cancelled",
+    laborCost: "Labor Cost",
+    loadingData: "Loading data...",
+    dataLoadedSuccess: "Data loaded successfully!",
+    dataLoadError: "Failed to load data",
+    ongoing: "Ongoing",
+    all: "All",
+    filterBy: "Filter by",
+  },
+};
+
+export default translations;

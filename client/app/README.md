@@ -182,61 +182,6 @@ This is a full-stack repair shop management system built with modern React techn
 - Revenue tracking and reporting
 - User activity monitoring
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- npm or yarn package manager
-
-### Installation
-
-```bash
-# Clone the repository
-git clone [repository-url]
-
-# Navigate to project directory
-cd app
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-### Build for Production
-
-```bash
-# Create production build
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## 📁 Project Structure
-
-```
-src/
-├── components/          # Reusable UI components
-├── screens/            # Page components (routes)
-├── store/              # Redux store and slices
-├── services/           # API services and utilities
-├── contexts/           # React contexts (Language, etc.)
-├── utils/              # Utility functions
-├── assets/             # Static assets (images, icons)
-└── shared-theme/       # Material-UI theme configuration
-```
-
-## 🔧 Configuration
-
-### Environment Variables
-
-```env
-VITE_API_BASE_URL=https://localhost:7143/api
-VITE_SIGNALR_HUB_URL=https://localhost:7143/notificationHub
-```
 
 ### Vite Configuration
 
@@ -285,10 +230,6 @@ VITE_SIGNALR_HUB_URL=https://localhost:7143/notificationHub
 - Async thunks for API calls
 - Optimistic updates where appropriate
 
-## 📧 Support
 
-For technical support or questions about the project, please contact the development team.
-
----
 
 **Built with ❤️ using modern React ecosystem**

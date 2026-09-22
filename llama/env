@@ -1,0 +1,23 @@
+# Ollama Configuration
+OLLAMA_BASE_URL=http://localhost:11434
+DEFAULT_MODEL=llama3.2:1b
+EMBEDDING_MODEL=nomic-embed-text
+
+# Data Storage
+PERSIST_DIRECTORY=data
+
+# CORS Configuration
+ALLOWED_ORIGINS=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3001"]
+
+# Rate Limiting (optional - defaults are set in code)
+# RATE_LIMIT_PER_MINUTE=10
+# RATE_LIMIT_PER_HOUR=100
+
+# Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=app.log
+
+# Flask Configuration
+FLASK_ENV=development
+FLASK_DEBUG=False
+

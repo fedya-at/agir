@@ -1,0 +1,15 @@
+flask
+flask-cors
+flask-limiter
+flasgger
+pydantic
+langchain
+langchain-community
+langchain-ollama
+langchain-core
+langsmith
+langchain-text-splitters
+chromadb
+pypdf
+requests
+redis
